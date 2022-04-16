@@ -1,0 +1,155 @@
+03:11:11 PM.593: Platform: Wayland
+03:11:11 PM.612: CPU Name: AMD Ryzen 7 4800H with Radeon Graphics
+03:11:11 PM.612: CPU Speed: 2900.000MHz
+03:11:11 PM.629: Physical Cores: 8, Logical Cores: 16
+03:11:11 PM.629: Physical Memory: 15428MB Total, 11319MB Free
+03:11:11 PM.629: Kernel Version: Linux 5.15.7-arch1-1
+03:11:11 PM.629: Distribution: "Arch Linux" Unknown
+03:11:11 PM.629: Session Type: wayland
+03:11:11 PM.629: Portable mode: false
+03:11:11 PM.734: OBS 27.1.3-1 (linux)
+03:11:11 PM.734: ---------------------------------
+03:11:11 PM.734: ---------------------------------
+03:11:11 PM.734: audio settings reset:
+03:11:11 PM.734: 	samples per sec: 48000
+03:11:11 PM.734: 	speakers:        2
+03:11:11 PM.737: ---------------------------------
+03:11:11 PM.737: Initializing OpenGL...
+03:11:11 PM.737: Using EGL/Wayland
+03:11:11 PM.738: Initialized EGL 1.5
+03:11:11 PM.756: Loading up OpenGL on adapter AMD AMD RENOIR (DRM 3.42.0, 5.15.7-arch1-1, LLVM 13.0.0)
+03:11:11 PM.756: OpenGL loaded successfully, version 4.6 (Core Profile) Mesa 21.2.5, shading language 4.60
+03:11:11 PM.770: ---------------------------------
+03:11:11 PM.770: video settings reset:
+03:11:11 PM.770: 	base resolution:   1920x1080
+03:11:11 PM.770: 	output resolution: 1920x1080
+03:11:11 PM.770: 	downscale filter:  Bicubic
+03:11:11 PM.770: 	fps:               60/1
+03:11:11 PM.770: 	format:            NV12
+03:11:11 PM.770: 	YUV mode:          709/Partial
+03:11:11 PM.770: NV12 texture support not available
+03:11:11 PM.776: Audio monitoring device:
+03:11:11 PM.776: 	name: Default
+03:11:11 PM.776: 	id: default
+03:11:11 PM.776: ---------------------------------
+03:11:11 PM.777: Failed to load 'en-US' text for module: 'decklink-captions.so'
+03:11:11 PM.779: Failed to load 'en-US' text for module: 'decklink-ouput-ui.so'
+03:11:11 PM.781: os_dlopen(/usr//lib/obs-plugins/frontend-tools.so->/usr//lib/obs-plugins/frontend-tools.so): libluajit-5.1.so.2: cannot open shared object file: No such file or directory
+03:11:11 PM.781: 
+03:11:11 PM.781: Module '/usr//lib/obs-plugins/frontend-tools.so' not loaded
+03:11:11 PM.788: [pipewire] No captures available
+03:11:11 PM.789: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+03:11:11 PM.789: No blackmagic support
+03:11:11 PM.799: v4l2loopback not installed, virtual camera disabled
+03:11:11 PM.816: NVENC supported
+03:11:11 PM.816: FFMPEG VAAPI supported
+03:11:11 PM.830: os_dlopen(/usr//lib/obs-plugins/sndio.so->/usr//lib/obs-plugins/sndio.so): libsndio.so.7: cannot open shared object file: No such file or directory
+03:11:11 PM.830: 
+03:11:11 PM.830: Module '/usr//lib/obs-plugins/sndio.so' not loaded
+03:11:11 PM.832: ---------------------------------
+03:11:11 PM.832:   Loaded Modules:
+03:11:11 PM.832:     text-freetype2.so
+03:11:11 PM.832:     rtmp-services.so
+03:11:11 PM.832:     obs-x264.so
+03:11:11 PM.832:     obs-transitions.so
+03:11:11 PM.832:     obs-outputs.so
+03:11:11 PM.832:     obs-libfdk.so
+03:11:11 PM.832:     obs-filters.so
+03:11:11 PM.832:     obs-ffmpeg.so
+03:11:11 PM.832:     linux-v4l2.so
+03:11:11 PM.832:     linux-pulseaudio.so
+03:11:11 PM.832:     linux-jack.so
+03:11:11 PM.832:     linux-decklink.so
+03:11:11 PM.832:     linux-capture.so
+03:11:11 PM.832:     linux-alsa.so
+03:11:11 PM.832:     image-source.so
+03:11:11 PM.832:     decklink-ouput-ui.so
+03:11:11 PM.832:     decklink-captions.so
+03:11:11 PM.832: ---------------------------------
+03:11:11 PM.833: ==== Startup complete ===============================================
+03:11:11 PM.838: All scene data cleared
+03:11:11 PM.838: ------------------------------------------------
+03:11:11 PM.846: pulse-input: Server name: 'pulseaudio 15.0'
+03:11:11 PM.847: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+03:11:11 PM.847: pulse-input: Started recording from 'alsa_output.pci-0000_05_00.6.analog-stereo.monitor'
+03:11:11 PM.847: [Loaded global audio device]: 'Desktop Audio'
+03:11:11 PM.847: pulse-input: Server name: 'pulseaudio 15.0'
+03:11:11 PM.847: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+03:11:11 PM.847: pulse-input: Started recording from 'alsa_input.pci-0000_05_00.6.analog-stereo'
+03:11:11 PM.848: [Loaded global audio device]: 'Mic/Aux'
+03:11:11 PM.848: pulse-input: Server name: 'pulseaudio 15.0'
+03:11:11 PM.848: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+03:11:11 PM.848: pulse-input: Started recording from 'alsa_input.pci-0000_05_00.6.analog-stereo'
+03:11:11 PM.848: Source ID 'xshm_input' not found
+03:11:11 PM.848: Failed to create source 'Screen Capture (XSHM)'!
+03:11:11 PM.848: pulse-input: Server name: 'pulseaudio 15.0'
+03:11:11 PM.849: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+03:11:11 PM.849: pulse-input: Started recording from 'alsa_output.pci-0000_05_00.6.analog-stereo.monitor'
+03:11:11 PM.849: v4l2-input: Start capture from /dev/video0
+03:11:11 PM.973: v4l2-input: Input: 0
+03:11:11 PM.993: v4l2-input: Resolution: 1280x720
+03:11:11 PM.993: v4l2-input: Pixelformat: YUYV
+03:11:11 PM.993: v4l2-input: Linesize: 2560 Bytes
+03:11:11 PM.993: v4l2-input: Framerate: 10.00 fps
+03:11:11 PM.994: v4l2-input: /dev/video0: select timeout set to 500000us (5x frame periods)
+03:11:12 PM.095: Switched to scene 'Piano Stream'
+03:11:12 PM.095: ------------------------------------------------
+03:11:12 PM.095: Loaded scenes:
+03:11:12 PM.095: - scene 'Star Seishun':
+03:11:12 PM.095:     - source: 'Audio Output Capture (PulseAudio)' (pulse_output_capture)
+03:11:12 PM.095:     - source: 'Audio Input Capture (PulseAudio)' (pulse_input_capture)
+03:11:12 PM.095:     - source: 'Video Capture Device (V4L2)' (v4l2_input)
+03:11:12 PM.095:     - source: 'Image Slide Show' (slideshow)
+03:11:12 PM.095:     - source: 'Image' (image_source)
+03:11:12 PM.095:     - source: 'Screen Capture (XSHM)' (xshm_input)
+03:11:12 PM.095:     - source: 'Banner' (text_ft2_source_v2)
+03:11:12 PM.095: - scene 'Piano Stream':
+03:11:12 PM.095:     - source: 'Audio Output Capture (PulseAudio)' (pulse_output_capture)
+03:11:12 PM.095:     - source: 'Video Capture Device (V4L2)' (v4l2_input)
+03:11:12 PM.095: - scene 'Screen Rec':
+03:11:12 PM.095:     - source: 'Audio Output Capture (PulseAudio)' (pulse_output_capture)
+03:11:12 PM.095:     - source: 'Screen Capture (XSHM)' (xshm_input)
+03:11:12 PM.095: ------------------------------------------------
+03:11:12 PM.389: adding 42 milliseconds of audio buffering, total audio buffering is now 42 milliseconds (source: Mic/Aux)
+03:11:12 PM.389: 
+03:11:12 PM.584: v4l2-input: /dev/video0: select timed out
+03:11:12 PM.584: v4l2-input: /dev/video0: failed to log status
+03:11:13 PM.085: v4l2-input: /dev/video0: select timed out
+03:11:13 PM.085: v4l2-input: /dev/video0: failed to log status
+03:19:56 PM.122: ---------------------------------
+03:19:56 PM.122: [NVENC encoder: 'simple_h264_recording'] settings:
+03:19:56 PM.122: 	rate_control: CQP
+03:19:56 PM.122: 	bitrate:      0
+03:19:56 PM.122: 	cqp:          23
+03:19:56 PM.122: 	keyint:       250
+03:19:56 PM.122: 	preset:       hq
+03:19:56 PM.122: 	profile:      high
+03:19:56 PM.122: 	width:        1920
+03:19:56 PM.122: 	height:       1080
+03:19:56 PM.122: 	2-pass:       false
+03:19:56 PM.122: 	b-frames:     2
+03:19:56 PM.122: 	psycho-aq:    1
+03:19:56 PM.122: 	GPU:          0
+03:19:56 PM.122: 
+03:19:56 PM.391: libfdk_aac encoder created
+03:19:56 PM.391: libfdk_aac bitrate: 192, channels: 2
+03:19:56 PM.401: ==== Recording Start ===============================================
+03:19:56 PM.401: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/sp84/Videos/2021-12-10 15-19-56.mkv'...
+03:28:27 PM.760: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/sp84/Videos/2021-12-10 15-19-56.mkv' stopped
+03:28:27 PM.760: Output 'simple_file_output': stopping
+03:28:27 PM.760: Output 'simple_file_output': Total frames output: 30645
+03:28:27 PM.760: Output 'simple_file_output': Total drawn frames: 30682
+03:28:27 PM.760: ==== Recording Stop ================================================
+03:28:27 PM.925: libfdk_aac encoder destroyed
+03:30:19 PM.580: ==== Shutting down ==================================================
+03:30:19 PM.581: pulse-input: Stopped recording from 'alsa_input.pci-0000_05_00.6.analog-stereo'
+03:30:19 PM.581: pulse-input: Got 114816 packets with 50614860 frames
+03:30:19 PM.582: pulse-input: Stopped recording from 'alsa_output.pci-0000_05_00.6.analog-stereo.monitor'
+03:30:19 PM.582: pulse-input: Got 234055 packets with 50614219 frames
+03:30:19 PM.660: v4l2-input: /dev/video0: Stopped capture after 11465 frames
+03:30:19 PM.693: pulse-input: Stopped recording from 'alsa_output.pci-0000_05_00.6.analog-stereo.monitor'
+03:30:19 PM.693: pulse-input: Got 296934 packets with 50615379 frames
+03:30:19 PM.693: pulse-input: Stopped recording from 'alsa_input.pci-0000_05_00.6.analog-stereo'
+03:30:19 PM.693: pulse-input: Got 114827 packets with 50619736 frames
+03:30:19 PM.693: All scene data cleared
+03:30:19 PM.693: ------------------------------------------------

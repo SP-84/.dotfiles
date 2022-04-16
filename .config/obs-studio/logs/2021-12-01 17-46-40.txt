@@ -1,0 +1,258 @@
+05:46:40 PM.829: Platform: Wayland
+05:46:40 PM.845: CPU Name: AMD Ryzen 7 4800H with Radeon Graphics
+05:46:40 PM.845: CPU Speed: 1400.000MHz
+05:46:40 PM.865: Physical Cores: 8, Logical Cores: 16
+05:46:40 PM.865: Physical Memory: 15428MB Total, 12032MB Free
+05:46:40 PM.865: Kernel Version: Linux 5.15.5-arch1-1
+05:46:40 PM.865: Distribution: "Arch Linux" Unknown
+05:46:40 PM.865: Session Type: wayland
+05:46:40 PM.865: Portable mode: false
+05:46:40 PM.968: OBS 27.1.3-1 (linux)
+05:46:40 PM.968: ---------------------------------
+05:46:40 PM.969: ---------------------------------
+05:46:40 PM.969: audio settings reset:
+05:46:40 PM.969: 	samples per sec: 48000
+05:46:40 PM.969: 	speakers:        2
+05:46:40 PM.972: ---------------------------------
+05:46:40 PM.972: Initializing OpenGL...
+05:46:40 PM.972: Using EGL/Wayland
+05:46:40 PM.973: Initialized EGL 1.5
+05:46:40 PM.992: Loading up OpenGL on adapter AMD AMD RENOIR (DRM 3.42.0, 5.15.5-arch1-1, LLVM 13.0.0)
+05:46:40 PM.992: OpenGL loaded successfully, version 4.6 (Core Profile) Mesa 21.2.5, shading language 4.60
+05:46:41 PM.044: ---------------------------------
+05:46:41 PM.044: video settings reset:
+05:46:41 PM.044: 	base resolution:   1920x1080
+05:46:41 PM.044: 	output resolution: 1920x1080
+05:46:41 PM.044: 	downscale filter:  Bicubic
+05:46:41 PM.044: 	fps:               60/1
+05:46:41 PM.044: 	format:            NV12
+05:46:41 PM.044: 	YUV mode:          709/Partial
+05:46:41 PM.044: NV12 texture support not available
+05:46:41 PM.049: Audio monitoring device:
+05:46:41 PM.049: 	name: Default
+05:46:41 PM.049: 	id: default
+05:46:41 PM.050: ---------------------------------
+05:46:41 PM.052: Failed to load 'en-US' text for module: 'decklink-captions.so'
+05:46:41 PM.054: Failed to load 'en-US' text for module: 'decklink-ouput-ui.so'
+05:46:41 PM.056: os_dlopen(/usr//lib/obs-plugins/frontend-tools.so->/usr//lib/obs-plugins/frontend-tools.so): libluajit-5.1.so.2: cannot open shared object file: No such file or directory
+05:46:41 PM.056: 
+05:46:41 PM.056: Module '/usr//lib/obs-plugins/frontend-tools.so' not loaded
+05:46:41 PM.063: [pipewire] No captures available
+05:46:41 PM.064: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+05:46:41 PM.064: No blackmagic support
+05:46:41 PM.073: v4l2loopback not installed, virtual camera disabled
+05:46:41 PM.094: NVENC supported
+05:46:41 PM.094: FFMPEG VAAPI supported
+05:46:41 PM.109: os_dlopen(/usr//lib/obs-plugins/sndio.so->/usr//lib/obs-plugins/sndio.so): libsndio.so.7: cannot open shared object file: No such file or directory
+05:46:41 PM.109: 
+05:46:41 PM.109: Module '/usr//lib/obs-plugins/sndio.so' not loaded
+05:46:41 PM.110: ---------------------------------
+05:46:41 PM.110:   Loaded Modules:
+05:46:41 PM.110:     text-freetype2.so
+05:46:41 PM.110:     rtmp-services.so
+05:46:41 PM.110:     obs-x264.so
+05:46:41 PM.110:     obs-transitions.so
+05:46:41 PM.110:     obs-outputs.so
+05:46:41 PM.110:     obs-libfdk.so
+05:46:41 PM.110:     obs-filters.so
+05:46:41 PM.110:     obs-ffmpeg.so
+05:46:41 PM.110:     linux-v4l2.so
+05:46:41 PM.110:     linux-pulseaudio.so
+05:46:41 PM.110:     linux-jack.so
+05:46:41 PM.110:     linux-decklink.so
+05:46:41 PM.110:     linux-capture.so
+05:46:41 PM.110:     linux-alsa.so
+05:46:41 PM.110:     image-source.so
+05:46:41 PM.110:     decklink-ouput-ui.so
+05:46:41 PM.110:     decklink-captions.so
+05:46:41 PM.110: ---------------------------------
+05:46:41 PM.111: ==== Startup complete ===============================================
+05:46:41 PM.117: All scene data cleared
+05:46:41 PM.117: ------------------------------------------------
+05:46:41 PM.125: pulse-input: Server name: 'pulseaudio 15.0'
+05:46:41 PM.125: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+05:46:41 PM.125: pulse-input: Started recording from 'alsa_output.pci-0000_05_00.6.analog-stereo.monitor'
+05:46:41 PM.125: [Loaded global audio device]: 'Desktop Audio'
+05:46:41 PM.125: pulse-input: Server name: 'pulseaudio 15.0'
+05:46:41 PM.126: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+05:46:41 PM.126: pulse-input: Started recording from 'alsa_input.pci-0000_05_00.6.analog-stereo'
+05:46:41 PM.126: [Loaded global audio device]: 'Mic/Aux'
+05:46:41 PM.239: v4l2-input: Start capture from /dev/video0
+05:46:41 PM.357: v4l2-input: Input: 0
+05:46:41 PM.376: v4l2-input: Resolution: 1280x720
+05:46:41 PM.376: v4l2-input: Pixelformat: YUYV
+05:46:41 PM.376: v4l2-input: Linesize: 2560 Bytes
+05:46:41 PM.376: v4l2-input: Framerate: 10.00 fps
+05:46:41 PM.377: v4l2-input: /dev/video0: select timeout set to 500000us (5x frame periods)
+05:46:41 PM.377: pulse-input: Server name: 'pulseaudio 15.0'
+05:46:41 PM.377: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+05:46:41 PM.377: pulse-input: Started recording from 'alsa_output.pci-0000_05_00.6.analog-stereo.monitor'
+05:46:41 PM.377: Source ID 'xshm_input' not found
+05:46:41 PM.377: Failed to create source 'Screen Capture (XSHM)'!
+05:46:41 PM.378: pulse-input: Server name: 'pulseaudio 15.0'
+05:46:41 PM.378: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+05:46:41 PM.378: pulse-input: Started recording from 'alsa_input.pci-0000_05_00.6.analog-stereo'
+05:46:41 PM.381: Switched to scene 'Piano Stream'
+05:46:41 PM.381: ------------------------------------------------
+05:46:41 PM.381: Loaded scenes:
+05:46:41 PM.381: - scene 'Star Seishun':
+05:46:41 PM.381:     - source: 'Audio Output Capture (PulseAudio)' (pulse_output_capture)
+05:46:41 PM.381:     - source: 'Audio Input Capture (PulseAudio)' (pulse_input_capture)
+05:46:41 PM.381:     - source: 'Video Capture Device (V4L2)' (v4l2_input)
+05:46:41 PM.381:     - source: 'Image Slide Show' (slideshow)
+05:46:41 PM.381:     - source: 'Image' (image_source)
+05:46:41 PM.381:     - source: 'Screen Capture (XSHM)' (xshm_input)
+05:46:41 PM.381:     - source: 'Banner' (text_ft2_source_v2)
+05:46:41 PM.381: - scene 'Piano Stream':
+05:46:41 PM.381:     - source: 'Audio Output Capture (PulseAudio)' (pulse_output_capture)
+05:46:41 PM.381:     - source: 'Video Capture Device (V4L2)' (v4l2_input)
+05:46:41 PM.381: - scene 'Screen Rec':
+05:46:41 PM.381:     - source: 'Audio Output Capture (PulseAudio)' (pulse_output_capture)
+05:46:41 PM.381:     - source: 'Screen Capture (XSHM)' (xshm_input)
+05:46:41 PM.381: ------------------------------------------------
+05:46:41 PM.645: adding 42 milliseconds of audio buffering, total audio buffering is now 42 milliseconds (source: Mic/Aux)
+05:46:41 PM.645: 
+05:46:41 PM.726: [rtmp-services plugin] Successfully updated file 'services.json' (version 187)
+05:46:41 PM.726: [rtmp-services plugin] Successfully updated package (version 187)
+05:46:41 PM.969: v4l2-input: /dev/video0: select timed out
+05:46:41 PM.969: v4l2-input: /dev/video0: failed to log status
+05:46:42 PM.470: v4l2-input: /dev/video0: select timed out
+05:46:42 PM.470: v4l2-input: /dev/video0: failed to log status
+05:57:36 PM.390: ---------------------------------
+05:57:36 PM.390: [NVENC encoder: 'simple_h264_recording'] settings:
+05:57:36 PM.390: 	rate_control: CQP
+05:57:36 PM.390: 	bitrate:      0
+05:57:36 PM.390: 	cqp:          23
+05:57:36 PM.390: 	keyint:       250
+05:57:36 PM.390: 	preset:       hq
+05:57:36 PM.390: 	profile:      high
+05:57:36 PM.390: 	width:        1920
+05:57:36 PM.390: 	height:       1080
+05:57:36 PM.390: 	2-pass:       false
+05:57:36 PM.390: 	b-frames:     2
+05:57:36 PM.390: 	psycho-aq:    1
+05:57:36 PM.390: 	GPU:          0
+05:57:36 PM.390: 
+05:57:36 PM.687: libfdk_aac encoder created
+05:57:36 PM.687: libfdk_aac bitrate: 192, channels: 2
+05:57:36 PM.713: ==== Recording Start ===============================================
+05:57:36 PM.713: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/sp84/Videos/2021-12-01 17-57-36.mkv'...
+06:14:42 PM.378: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/sp84/Videos/2021-12-01 17-57-36.mkv' stopped
+06:14:42 PM.378: Output 'simple_file_output': stopping
+06:14:42 PM.378: Output 'simple_file_output': Total frames output: 61505
+06:14:42 PM.378: Output 'simple_file_output': Total drawn frames: 61539 (61540 attempted)
+06:14:42 PM.378: Output 'simple_file_output': Number of lagged frames due to rendering lag/stalls: 1 (0.0%)
+06:14:42 PM.379: ==== Recording Stop ================================================
+06:14:42 PM.547: libfdk_aac encoder destroyed
+06:17:29 PM.327: ---------------------------------
+06:17:29 PM.327: [NVENC encoder: 'simple_h264_recording'] settings:
+06:17:29 PM.327: 	rate_control: CQP
+06:17:29 PM.327: 	bitrate:      0
+06:17:29 PM.327: 	cqp:          23
+06:17:29 PM.327: 	keyint:       250
+06:17:29 PM.327: 	preset:       hq
+06:17:29 PM.327: 	profile:      high
+06:17:29 PM.327: 	width:        1920
+06:17:29 PM.327: 	height:       1080
+06:17:29 PM.327: 	2-pass:       false
+06:17:29 PM.327: 	b-frames:     2
+06:17:29 PM.327: 	psycho-aq:    1
+06:17:29 PM.327: 	GPU:          0
+06:17:29 PM.327: 
+06:17:29 PM.546: libfdk_aac encoder created
+06:17:29 PM.546: libfdk_aac bitrate: 192, channels: 2
+06:17:29 PM.548: ==== Recording Start ===============================================
+06:17:29 PM.548: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/sp84/Videos/2021-12-01 18-17-29.mkv'...
+06:24:54 PM.207: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/sp84/Videos/2021-12-01 18-17-29.mkv' stopped
+06:24:54 PM.207: Output 'simple_file_output': stopping
+06:24:54 PM.207: Output 'simple_file_output': Total frames output: 26644
+06:24:54 PM.207: Output 'simple_file_output': Total drawn frames: 26679
+06:24:54 PM.207: ==== Recording Stop ================================================
+06:24:54 PM.364: libfdk_aac encoder destroyed
+06:27:39 PM.636: ---------------------------------
+06:27:39 PM.636: [NVENC encoder: 'simple_h264_recording'] settings:
+06:27:39 PM.636: 	rate_control: CQP
+06:27:39 PM.636: 	bitrate:      0
+06:27:39 PM.636: 	cqp:          23
+06:27:39 PM.636: 	keyint:       250
+06:27:39 PM.636: 	preset:       hq
+06:27:39 PM.636: 	profile:      high
+06:27:39 PM.636: 	width:        1920
+06:27:39 PM.636: 	height:       1080
+06:27:39 PM.636: 	2-pass:       false
+06:27:39 PM.636: 	b-frames:     2
+06:27:39 PM.636: 	psycho-aq:    1
+06:27:39 PM.636: 	GPU:          0
+06:27:39 PM.636: 
+06:27:39 PM.829: libfdk_aac encoder created
+06:27:39 PM.829: libfdk_aac bitrate: 192, channels: 2
+06:27:39 PM.832: ==== Recording Start ===============================================
+06:27:39 PM.832: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/sp84/Videos/2021-12-01 18-27-39.mkv'...
+06:35:13 PM.389: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/sp84/Videos/2021-12-01 18-27-39.mkv' stopped
+06:35:13 PM.389: Output 'simple_file_output': stopping
+06:35:13 PM.389: Output 'simple_file_output': Total frames output: 27178
+06:35:13 PM.389: Output 'simple_file_output': Total drawn frames: 27213
+06:35:13 PM.390: ==== Recording Stop ================================================
+06:35:13 PM.542: libfdk_aac encoder destroyed
+06:38:08 PM.221: ---------------------------------
+06:38:08 PM.222: [NVENC encoder: 'simple_h264_recording'] settings:
+06:38:08 PM.222: 	rate_control: CQP
+06:38:08 PM.222: 	bitrate:      0
+06:38:08 PM.222: 	cqp:          23
+06:38:08 PM.222: 	keyint:       250
+06:38:08 PM.222: 	preset:       hq
+06:38:08 PM.222: 	profile:      high
+06:38:08 PM.222: 	width:        1920
+06:38:08 PM.222: 	height:       1080
+06:38:08 PM.222: 	2-pass:       false
+06:38:08 PM.222: 	b-frames:     2
+06:38:08 PM.222: 	psycho-aq:    1
+06:38:08 PM.222: 	GPU:          0
+06:38:08 PM.222: 
+06:38:08 PM.421: libfdk_aac encoder created
+06:38:08 PM.421: libfdk_aac bitrate: 192, channels: 2
+06:38:08 PM.424: ==== Recording Start ===============================================
+06:38:08 PM.424: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/sp84/Videos/2021-12-01 18-38-08.mkv'...
+06:50:18 PM.915: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/sp84/Videos/2021-12-01 18-38-08.mkv' stopped
+06:50:18 PM.915: Output 'simple_file_output': stopping
+06:50:18 PM.915: Output 'simple_file_output': Total frames output: 43794
+06:50:18 PM.915: Output 'simple_file_output': Total drawn frames: 43830
+06:50:18 PM.915: ==== Recording Stop ================================================
+06:50:19 PM.073: libfdk_aac encoder destroyed
+06:50:42 PM.142: ---------------------------------
+06:50:42 PM.142: [NVENC encoder: 'simple_h264_recording'] settings:
+06:50:42 PM.142: 	rate_control: CQP
+06:50:42 PM.142: 	bitrate:      0
+06:50:42 PM.142: 	cqp:          23
+06:50:42 PM.142: 	keyint:       250
+06:50:42 PM.142: 	preset:       hq
+06:50:42 PM.142: 	profile:      high
+06:50:42 PM.142: 	width:        1920
+06:50:42 PM.142: 	height:       1080
+06:50:42 PM.142: 	2-pass:       false
+06:50:42 PM.142: 	b-frames:     2
+06:50:42 PM.142: 	psycho-aq:    1
+06:50:42 PM.142: 	GPU:          0
+06:50:42 PM.142: 
+06:50:42 PM.358: libfdk_aac encoder created
+06:50:42 PM.358: libfdk_aac bitrate: 192, channels: 2
+06:50:42 PM.361: ==== Recording Start ===============================================
+06:50:42 PM.361: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/sp84/Videos/2021-12-01 18-50-42.mkv'...
+07:02:46 PM.672: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/sp84/Videos/2021-12-01 18-50-42.mkv' stopped
+07:02:46 PM.672: Output 'simple_file_output': stopping
+07:02:46 PM.672: Output 'simple_file_output': Total frames output: 43423
+07:02:46 PM.672: Output 'simple_file_output': Total drawn frames: 43459
+07:02:46 PM.672: ==== Recording Stop ================================================
+07:02:46 PM.829: libfdk_aac encoder destroyed
+07:03:26 PM.386: ==== Shutting down ==================================================
+07:03:26 PM.390: pulse-input: Stopped recording from 'alsa_input.pci-0000_05_00.6.analog-stereo'
+07:03:26 PM.390: pulse-input: Got 460217 packets with 203080807 frames
+07:03:26 PM.392: pulse-input: Stopped recording from 'alsa_output.pci-0000_05_00.6.analog-stereo.monitor'
+07:03:26 PM.392: pulse-input: Got 941075 packets with 203080505 frames
+07:03:26 PM.398: v4l2-input: /dev/video0: Stopped capture after 46043 frames
+07:03:26 PM.449: pulse-input: Stopped recording from 'alsa_output.pci-0000_05_00.6.analog-stereo.monitor'
+07:03:26 PM.449: pulse-input: Got 1188819 packets with 203090717 frames
+07:03:26 PM.449: pulse-input: Stopped recording from 'alsa_input.pci-0000_05_00.6.analog-stereo'
+07:03:26 PM.449: pulse-input: Got 460269 packets with 203116304 frames
+07:03:26 PM.450: All scene data cleared
+07:03:26 PM.450: ------------------------------------------------
